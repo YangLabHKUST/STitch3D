@@ -17,7 +17,7 @@ class Model():
                  n_heads=1,
                  slice_emb_dim=16,
                  coef_fe=0.1,
-                 training_steps=10000,
+                 training_steps=20000,
                  lr=2e-3,
                  seed=1234,
                  ):
