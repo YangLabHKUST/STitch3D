@@ -13,3 +13,6 @@ Installation
 
 Tutorials and reproducibility
 -----------------------------
+
+Interactive 3D results
+----------------------
