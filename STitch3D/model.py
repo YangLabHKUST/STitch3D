@@ -63,7 +63,7 @@ class Model():
         self.slice = torch.from_numpy(np.array(adata_st.obs["slice"].values)).long().to(self.device)
         self.basis = torch.from_numpy(np.array(adata_basis.X)).float().to(self.device)
 
-    def train(self):
+    def train(self, report_loss=True, step_interval=2000):
         self.net.train()
         for step in tqdm(range(self.training_steps)):
             loss = self.net(adj_matrix=self.A,
@@ -75,9 +75,10 @@ class Model():
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
-        
-            if not step % 200:
-                print("Step: %s, Loss: %.4f, d_loss: %.4f, f_loss: %.4f" % (step, loss.item(), self.net.decon_loss.item(), self.net.features_loss.item()))  
+            
+            if report_loss:
+                if not step % step_interval:
+                    print("Step: %s, Loss: %.4f, d_loss: %.4f, f_loss: %.4f" % (step, loss.item(), self.net.decon_loss.item(), self.net.features_loss.item()))  
 
 
     def eval(self, adata_st_list_raw, save=False, output_path="./results"):
