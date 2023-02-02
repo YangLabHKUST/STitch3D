@@ -9,6 +9,7 @@ We developed STitch3D, a deep learning-based method for 3D reconstruction of tis
 </p>
 
 An example: STitch3D reconstructed the mouse brain, successfully detected 3D layer organizations of the cerebral cortex, and accurately reconstructed curve-shaped distributions of four hippocampal neuron types in three cornu ammonis areas and dentate gyrus.
+
 ![hpc](mouse_brain_layers.gif) ![hpc](mouse_brain_hpc.gif)
 
 Installation
