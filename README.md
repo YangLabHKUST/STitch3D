@@ -13,6 +13,3 @@ Installation
 
 Tutorials and reproducibility
 -----------------------------
-
-Interactive 3D visualization of STitch3D's results
---------------------------------------------------
