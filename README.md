@@ -16,6 +16,13 @@ An example: STitch3D reconstructed the adult mouse brain, detected 3D layer orga
 
 Installation
 ------------
+* STitch3D can be downloaded from GitHub:
+```bash
+git clone https://github.com/YangLabHKUST/STitch3D.git
+cd STitch3D
+conda env update --f environment.yml
+conda activate stitch3d
+```
 
 Tutorials and reproducibility
 -----------------------------
