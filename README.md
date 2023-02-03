@@ -26,6 +26,7 @@ conda activate stitch3d
 
 Tutorials and reproducibility
 -----------------------------
+We provide codes for reproducing the experiments of the paper "Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices". Please check the [tutorial website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html) for more details.
 
 Interactive 3D results
 ----------------------
