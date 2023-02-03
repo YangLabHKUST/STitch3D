@@ -153,7 +153,7 @@ def preprocess(adata_st_list_input, # list of spatial transcriptomics (ST) annda
                celltype_ref_col="celltype", # column of adata_ref_input.obs for cell type information
                sample_col=None, # column of adata_ref_input.obs for batch labels
                celltype_ref=None, # specify cell types to use for deconvolution
-               n_hvg_group=300, # number of highly variable genes for reference anndata
+               n_hvg_group=500, # number of highly variable genes for reference anndata
                three_dim_coor=None, # if not None, use existing 3d coordinates in shape [# of total spots, 3]
                coor_key="spatial_aligned", # "spatial_aligned" by default
                rad_cutoff=None, # cutoff radius of spots for building graph
