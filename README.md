@@ -29,3 +29,7 @@ We provided codes for reproducing the experiments of the paper "Construction of 
 Interactive 3D results
 ----------------------
 Interactive 3D analysis results from STitch3D are available at the [website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html).
+
+Reference
+----------------------
+Gefei Wang, Jia Zhao, Yan Yan, Yang Wang, Angela Ruohao Wu, Can Yang. Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices. bioRxiv 2023.02.02.526814; doi: https://doi.org/10.1101/2023.02.02.526814
