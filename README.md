@@ -21,10 +21,11 @@ cd STitch3D
 conda env update --f environment.yml
 conda activate stitch3d
 ```
+Normally the installation time will be less than ten minutes. We have tested our package on Linux (Ubuntu 18.04.5 LTS). Software dependencies are listed in [this website](https://stitch3d-tutorial.readthedocs.io/en/latest/installation.html#software-dependencies).
 
 Tutorials and reproducibility
 -----------------------------
-We provided codes for reproducing the experiments of the paper "Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices", and comprehensive tutorials for using STitch3D. Please check the [tutorial website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html) for more details.
+We provided codes for reproducing the experiments of the paper "Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices", and comprehensive tutorials for using STitch3D. Please check the [tutorial website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html) for more details. 
 
 Interactive 3D results
 ----------------------
