@@ -20,6 +20,7 @@ class Model():
                  training_steps=20000,
                  lr=2e-3,
                  seed=1234,
+                 distribution="Poisson"
                  ):
 
         self.training_steps = training_steps
@@ -42,13 +43,22 @@ class Model():
         self.n_slices = len(sorted(set(adata_st.obs["slice"].values)))
 
         # build model
-        self.net = DeconvNet(hidden_dims=self.hidden_dims,
-                             n_celltypes=self.n_celltype,
-                             n_slices=self.n_slices,
-                             n_heads=n_heads,
-                             slice_emb_dim=slice_emb_dim,
-                             coef_fe=coef_fe,
-                             ).to(self.device)
+        if distribution == "Poisson":
+            self.net = DeconvNet(hidden_dims=self.hidden_dims,
+                                 n_celltypes=self.n_celltype,
+                                 n_slices=self.n_slices,
+                                 n_heads=n_heads,
+                                 slice_emb_dim=slice_emb_dim,
+                                 coef_fe=coef_fe,
+                                 ).to(self.device)
+        else: #Negative Binomial distribution
+            self.net = DeconvNet_NB(hidden_dims=self.hidden_dims,
+                                    n_celltypes=self.n_celltype,
+                                    n_slices=self.n_slices,
+                                    n_heads=n_heads,
+                                    slice_emb_dim=slice_emb_dim,
+                                    coef_fe=coef_fe,
+                                    ).to(self.device)
 
         self.optimizer = optim.Adamax(list(self.net.parameters()), lr=lr)
 
