@@ -18,6 +18,7 @@ Installation
 ```bash
 git clone https://github.com/YangLabHKUST/STitch3D.git
 cd STitch3D
+conda config --set channel_priority strict
 conda env update --f environment.yml
 conda activate stitch3d
 ```
