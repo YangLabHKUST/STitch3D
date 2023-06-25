@@ -14,7 +14,11 @@ An example: STitch3D reconstructed the adult mouse brain, detected 3D layer orga
 
 Installation
 ------------
-* STitch3D can be downloaded from GitHub:
+* STitch3D can be installed from PyPI:
+```bash
+pip install stitch3d
+```
+* Alternatively, STitch3D can be downloaded from GitHub:
 ```bash
 git clone https://github.com/YangLabHKUST/STitch3D.git
 cd STitch3D
