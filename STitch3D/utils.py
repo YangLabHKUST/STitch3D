@@ -18,6 +18,8 @@ def align_spots(adata_st_list_input, # list of spatial transcriptomics datasets
                 tol=0.01, # parameter for "icp" method; tolerance level
                 test_all_angles=False, # parameter for "icp" method; whether to test multiple rotation angles or not
                 plot=False,
+                paste_alpha=0.1,
+                paste_dissimilarity="kl"
                 ):
     # Align coordinates of spatial transcriptomics
 
@@ -116,7 +118,8 @@ def align_spots(adata_st_list_input, # list of spatial transcriptomics datasets
         pis = []
         # Calculate pairwise transformation matrices
         for i in range(len(adata_st_list) - 1):
-            pi = pairwise_align_paste(adata_st_list[i], adata_st_list[i+1], coor_key=coor_key)
+            pi = pairwise_align_paste(adata_st_list[i], adata_st_list[i+1], coor_key=coor_key,
+                                      alpha = paste_alpha, dissimilarity = paste_dissimilarity)
             pis.append(pi)
         # Tranform
         S1, S2  = generalized_procrustes_analysis(adata_st_list[0].obsm[coor_key], 
