@@ -1,4 +1,5 @@
 # STitch3D
+[![DOI](https://zenodo.org/badge/567093619.svg)](https://zenodo.org/badge/latestdoi/567093619) [![PyPI](https://img.shields.io/pypi/v/stitch3d?color=green)](https://pypi.python.org/pypi/stitch3d/) [![PyPi license](https://badgen.net/pypi/license/stitch3d/)](https://pypi.org/project/stitch3d/) [![Downloads](https://static.pepy.tech/personalized-badge/stitch3d?period=total&units=international_system&left_color=grey&right_color=orange&left_text=downloads)](https://pepy.tech/project/stitch3d) [![Stars](https://img.shields.io/github/stars/YangLabHKUST/STitch3D?logo=GitHub&color=yellow)](https://github.com/YangLabHKUST/STitch3D/stargazers) 
 
 ### Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices
 
