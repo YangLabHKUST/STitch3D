@@ -1,7 +1,13 @@
 # STitch3D
 [![DOI](https://zenodo.org/badge/567093619.svg)](https://zenodo.org/badge/latestdoi/567093619) [![PyPI](https://img.shields.io/pypi/v/stitch3d?color=green)](https://pypi.python.org/pypi/stitch3d/) [![PyPi license](https://badgen.net/pypi/license/stitch3d/)](https://pypi.org/project/stitch3d/) [![Downloads](https://static.pepy.tech/personalized-badge/stitch3d?period=total&units=international_system&left_color=grey&right_color=orange&left_text=downloads)](https://pepy.tech/project/stitch3d) [![Stars](https://img.shields.io/github/stars/YangLabHKUST/STitch3D?logo=GitHub&color=yellow)](https://github.com/YangLabHKUST/STitch3D/stargazers) 
 
-### Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices
+*Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks*
+
+An effective and efficient 3D analysis method using spatial transcriptomics data.
+
+Check out our manuscript in Nature Machine Intelligence:
++ [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-023-00734-1)
++ [Preprint in bioRxiv](https://doi.org/10.1101/2023.02.02.526814)
 
 ![STitch3D\_pipeline](demos/Overview.jpg)
 
@@ -31,7 +37,7 @@ Normally the installation time will be less than ten minutes. We have tested our
 
 Tutorials and reproducibility
 -----------------------------
-We provided codes for reproducing the experiments of the paper "Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices", and comprehensive tutorials for using STitch3D. Please check the [tutorial website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html) for more details. 
+We provided codes for reproducing the experiments of the paper "Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks", and comprehensive tutorials for using STitch3D. Please check the [tutorial website](https://stitch3d-tutorial.readthedocs.io/en/latest/index.html) for more details. 
 
 Interactive 3D results
 ----------------------
@@ -39,4 +45,4 @@ Interactive 3D analysis results from STitch3D are available at the [website](htt
 
 Reference
 ----------------------
-Gefei Wang, Jia Zhao, Yan Yan, Yang Wang, Angela Ruohao Wu, Can Yang. Construction of a 3D whole organism spatial atlas by joint modeling of multiple slices. bioRxiv 2023.02.02.526814; doi: https://doi.org/10.1101/2023.02.02.526814
+Gefei Wang, Jia Zhao, Yan Yan, Yang Wang, Angela Ruohao Wu, Can Yang. Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks. Nature Machine Intelligence (2023).
