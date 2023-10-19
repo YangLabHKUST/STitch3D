@@ -7,6 +7,7 @@ An effective and efficient 3D analysis method for spatial transcriptomics data.
 
 Check out our manuscript in Nature Machine Intelligence:
 + [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-023-00734-1)
++ [Read fulltext link](https://rdcu.be/doZ9u)
 + [Preprint in bioRxiv](https://doi.org/10.1101/2023.02.02.526814)
 
 ![STitch3D\_pipeline](demos/Overview.jpg)
