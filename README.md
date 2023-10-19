@@ -3,7 +3,7 @@
 
 *Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks*
 
-An effective and efficient 3D analysis method using spatial transcriptomics data.
+An effective and efficient 3D analysis method for spatial transcriptomics data.
 
 Check out our manuscript in Nature Machine Intelligence:
 + [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-023-00734-1)
