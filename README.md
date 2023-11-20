@@ -46,4 +46,4 @@ Interactive 3D analysis results from STitch3D are available at the [website](htt
 
 Reference
 ----------------------
-Gefei Wang, Jia Zhao, Yan Yan, Yang Wang, Angela Ruohao Wu, Can Yang. Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks. Nature Machine Intelligence (2023).
+Gefei Wang, Jia Zhao, Yan Yan, Yang Wang, Angela Ruohao Wu, Can Yang. Construction of a 3D whole organism spatial atlas by joint modelling of multiple slices with deep neural networks. Nature Machine Intelligence 5, 1200–1213 (2023).
